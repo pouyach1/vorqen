@@ -1,0 +1,44 @@
+/* Fonts loaded via Google Fonts in index.html.
+   Local fallbacks + language-aware stacks. */
+
+html,
+body {
+  font-family: var(--font-latin);
+  line-height: var(--lh-en);
+}
+
+html[lang="fa"],
+html[dir="rtl"] {
+  font-family: var(--font-fa);
+  line-height: var(--lh-fa);
+}
+
+html[lang="fa"] .font-display,
+html[dir="rtl"] .font-display {
+  font-family: var(--font-fa);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+html[lang="en"] .font-display,
+html[dir="ltr"] .font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.font-latin {
+  font-family: var(--font-latin);
+  line-height: var(--lh-en);
+}
+
+.font-mono,
+.terminal,
+code,
+kbd {
+  font-family: var(--font-mono);
+  letter-spacing: 0;
+  text-transform: none;
+  direction: ltr;
+  unicode-bidi: isolate;
+}

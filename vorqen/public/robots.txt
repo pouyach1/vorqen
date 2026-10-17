@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap will be absolute once deployed; update domain before production.
+# Sitemap: https://example.com/sitemap.xml
