@@ -32,4 +32,8 @@ Copy `.env.example` → `.env` and set `VITE_CONTACT_ENDPOINT`.
 
 ## Status
 
-Step 1 complete: project scaffold, tokens, fonts, folder layout.
+- **Step 1** scaffold, tokens, fonts, folders  
+- **Step 2** WebGL renderer, CatmullRom camera rig, quality tiers, RAF loop  
+- **Step 3** Lenis + GSAP ScrollTrigger → 0–1 world progress  
+
+Debug neon markers are temporary until Scene 1 (Signal) lands.
