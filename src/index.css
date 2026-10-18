@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #00f3ff33 transparent;
+  }
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+  /* Lenis owns interpolation — avoid double-smoothing */
+  html.lenis,
+  html.lenis body {
+    scroll-behavior: auto;
+  }
+  body {
+    @apply bg-void text-slate-200 font-mono antialiased;
+    overflow-x: clip;
+    background-image: radial-gradient(
+        circle at 20% 20%,
+        rgba(112, 0, 255, 0.1),
+        transparent 42%
+      ),
+      radial-gradient(circle at 80% 70%, rgba(0, 243, 255, 0.08), transparent 42%);
+  }
+  /* Desktop custom cursor — native cursor hidden only when active */
+  @media (pointer: fine) and (hover: hover) {
+    html.has-custom-cursor,
+    html.has-custom-cursor * {
+      cursor: none !important;
+    }
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-wide;
+  }
+  ::selection {
+    background: #00f3ff55;
+  }
+  :focus-visible {
+    outline: 2px solid #00f3ff;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply relative rounded-2xl border border-cyan-neon/20 bg-panel backdrop-blur-md;
+    transition: border-color 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+      background-color 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .neon-text-cyan {
+    color: #00f3ff;
+    text-shadow: 0 0 8px rgba(0, 243, 255, 0.6);
+  }
+  .neon-text-purple {
+    color: #7000ff;
+    text-shadow: 0 0 8px rgba(112, 0, 255, 0.6);
+  }
+  .neon-text-glow {
+    /* Prefer solid gradient text over multi-layer drop-shadow filters */
+    filter: none;
+  }
+  .section-container {
+    @apply mx-auto w-full max-w-7xl px-6 py-24 md:px-10;
+  }
+  /* Premium interactive surfaces */
+  .surface-interactive:hover {
+    border-color: rgba(0, 243, 255, 0.45);
+  }
+  .nav-link {
+    @apply relative font-heading text-xs uppercase tracking-wide text-slate-300 transition-colors duration-300;
+  }
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, #00f3ff, transparent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .nav-link:hover {
+    color: #00f3ff;
+  }
+  .nav-link:hover::after {
+    transform: scaleX(1);
+  }
+  .hero-mask-line {
+    display: block;
+    overflow: hidden;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
