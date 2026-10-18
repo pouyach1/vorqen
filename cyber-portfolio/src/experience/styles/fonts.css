@@ -1,0 +1,34 @@
+/* Scoped font helpers for the scroll-world experience only. */
+
+.scroll-world {
+  font-family: var(--font-latin);
+  line-height: var(--lh-en);
+}
+
+.scroll-world[lang="fa"],
+.scroll-world[dir="rtl"] {
+  font-family: var(--font-fa);
+  line-height: var(--lh-fa);
+}
+
+.scroll-world .font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.scroll-world .font-latin {
+  font-family: var(--font-latin);
+  line-height: var(--lh-en);
+}
+
+.scroll-world .font-mono,
+.scroll-world .terminal,
+.scroll-world code,
+.scroll-world kbd {
+  font-family: var(--font-mono);
+  letter-spacing: 0;
+  text-transform: none;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
