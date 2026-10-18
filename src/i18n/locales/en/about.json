@@ -1,0 +1,660 @@
+{
+  "bench": {
+    "aria": "Kuro sitting on a bench next to a fishbowl",
+    "acts": {
+      "discover": {
+        "index": "01",
+        "title": "A Mysterious Fish",
+        "line": "Whoa, whoa, WHOA! 👀 What is THAT?! A tiny swimming creature... with no Wi-Fi?!"
+      },
+      "approach": {
+        "index": "02",
+        "title": "Brave Little Robot",
+        "line": "Easy there, little buddy... I'm a highly advanced robot. I've got this! Totally got this!"
+      },
+      "startle": {
+        "index": "03",
+        "title": "Emergency Retreat!",
+        "line": "AAAAH! 😭 DID IT JUST BLINK?! Wait... can fish even blink?! WHY IS IT LOOKING AT ME?!"
+      },
+      "retreat": {
+        "index": "04",
+        "title": "Tactical Withdrawal",
+        "line": "Ahem... according to my calculations, the safest strategic decision is to supervise from... way over here. 😐"
+      },
+      "hello": {
+        "index": "05",
+        "title": "Oh! A Visitor!",
+        "line": "Uh... how long have YOU been watching?! 😳 You didn't see that, right? ...Anyway! Hiiii! I'm Kuro! Welcome! 👋💜"
+      }
+    }
+  },
+  "odyssey": {
+    "ignition": {
+      "word": "SIGNAL",
+      "caption": "Creative developer · experience systems · interactive craft",
+      "scroll": "Scroll to enter the odyssey"
+    },
+    "identity": {
+      "kicker": "02 / Identity",
+      "lines": [
+        "I don’t ship screens.",
+        "I engineer feelings",
+        "you can maintain."
+      ],
+      "note": "Pouya — 22 — Creative Technologist. Obsessed with turning imagination into systems people can feel."
+    },
+    "tunnel": {
+      "kicker": "03 / Depth",
+      "title": "Enter the signal tunnel",
+      "body": "Motion with purpose. Interfaces with intention. Code that stays readable after the glow fades."
+    },
+    "corridor": {
+      "label": "Editorial corridor",
+      "kicker": "04 / Doctrine",
+      "craft": {
+        "kicker": "Craft",
+        "title": "Details that earn their place",
+        "body": "If a detail doesn’t serve clarity, emotion, or usability — it doesn’t ship."
+      },
+      "systems": {
+        "kicker": "Systems",
+        "title": "Experiences as architecture",
+        "body": "Scroll, state, and interaction should feel like one continuous machine — not bolted-on effects."
+      },
+      "human": {
+        "kicker": "Human",
+        "title": "Make someone feel something",
+        "body": "Surprise. Focus. Warmth. A website should leave a residue in memory — not just a screenshot."
+      },
+      "build": {
+        "kicker": "Build",
+        "title": "Always exploring",
+        "body": "Curiosity is infinite. The craft is learning how to aim it without burning out the RAM."
+      }
+    },
+    "fragments": {
+      "kicker": "05 / Fragments",
+      "title": "Controlled chaos — on purpose",
+      "body": "Fragments only work when the composition still holds. Same rule for products: energy with structure.",
+      "tags": ["Motion", "Systems", "AI", "Bots", "Web", "VORQEN"]
+    },
+    "scale": {
+      "words": ["BUILD", "FEEL", "SHIP"],
+      "settle": "Make something worth building.",
+      "caption": "Progress over perfection"
+    },
+    "timeline": {
+      "kicker": "07 / Maker path",
+      "curiosity": {
+        "index": "01",
+        "title": "Curiosity without an off switch",
+        "body": "How things work. How to invent what didn’t exist yesterday. The loop never really ends."
+      },
+      "craft": {
+        "index": "02",
+        "title": "Craft under pressure",
+        "body": "Heavy expectations. Hard days. Still choosing to learn, try, and rebuild — again."
+      },
+      "vorqen": {
+        "index": "03",
+        "title": "VORQEN takes shape",
+        "body": "A living mission: purposeful design, careful build, digital experiences that help real people."
+      },
+      "becoming": {
+        "index": "04",
+        "title": "Still becoming",
+        "body": "The future file isn’t finished. That’s the point — and the invitation."
+      }
+    },
+    "bridge": {
+      "kicker": "08 / Live session",
+      "title": "Now open the living terminal",
+      "body": "Seven chapters. Code that tells a story. Kuro translates — and sometimes panics about RAM.",
+      "cta": "Enter Living Terminal"
+    }
+  },
+  "studioHero": {
+    "word": "SIGNAL",
+    "caption": "Creative developer · experience systems · interactive craft",
+    "scroll": "Scroll to enter"
+  },
+  "kineticType": {
+    "label": "Where design becomes system",
+    "lines": [
+      {
+        "tokens": [
+          { "type": "symbol", "text": "(" },
+          { "type": "text", "text": "WHERE" },
+          { "type": "image", "tint": 0 },
+          { "type": "italic", "text": "design" },
+          { "type": "symbol", "text": "✦" }
+        ]
+      },
+      {
+        "tokens": [
+          { "type": "text", "text": "BECOMES" },
+          { "type": "symbol", "text": "➝" },
+          { "type": "image", "tint": 1 },
+          { "type": "italic", "text": "proof" },
+          { "type": "symbol", "text": "./" }
+        ]
+      },
+      {
+        "tokens": [
+          { "type": "symbol", "text": "↳" },
+          { "type": "text", "text": "MOTION" },
+          { "type": "image", "tint": 2 },
+          { "type": "italic", "text": "logic" },
+          { "type": "symbol", "text": "✱" },
+          { "type": "text", "text": "SHIP" }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "index": "01",
+    "kicker": "The Signal",
+    "eyebrow": "Experience systems · Interactive craft",
+    "lines": ["Design the", "feeling.", "Engineer the", "proof."],
+    "role": "Creative Developer & Experience Builder",
+    "lede": "I build digital experiences where motion, interface, and logic share one intention — expressive enough to remember, rigorous enough to ship.",
+    "annotation": "Origin of the system",
+    "sideLabel": "{{robot}} mark",
+    "sideNote": "Signal expands into a live creator workspace below.",
+    "metaFocus": "Focus",
+    "metaFocusValue": "Systems",
+    "metaMode": "Mode",
+    "metaModeValue": "Craft",
+    "metaLocale": "Locale",
+    "scroll": "Scroll to expand the signal",
+    "scrollHint": "You drive every transformation",
+    "bridge": "Enter the creator workspace — live chapters, code, and Kuro."
+  },
+  "journey": {
+    "manifesto": {
+      "index": "02",
+      "kicker": "Doctrine",
+      "annotation": "Strategy → form → behavior",
+      "words": ["Clarity", "before", "spectacle"],
+      "footer": "If it cannot be maintained, it is not finished. If it cannot be felt, it is not done.",
+      "breakout": "Off-grid · intentional tension"
+    },
+    "corridor": {
+      "label": "Story corridor",
+      "vision": {
+        "kicker": "Vision",
+        "line1": "See the",
+        "line2": "whole system",
+        "body": "Creative direction begins with the feeling a product must leave behind — then reverse-engineers the interfaces, motion, and logic that can honestly deliver it.",
+        "note": "Panel 01 · Intent before pixels"
+      },
+      "craft": {
+        "kicker": "Craft",
+        "line1": "Design meets",
+        "line2": "engineering",
+        "body": "Typography, interaction, and architecture are negotiated in the same pass — so the experience stays expressive without becoming fragile.",
+        "note": "Panel 02 · Structure you can ship"
+      },
+      "impact": {
+        "kicker": "Impact",
+        "line1": "Make it",
+        "line2": "matter",
+        "body": "Meaningful digital experiences earn attention by clarity and care — not volume. Every detail should justify its place in the journey.",
+        "note": "Panel 03 · Substance over noise"
+      }
+    },
+    "chaos": {
+      "index": "03",
+      "kicker": "Interference",
+      "line1": "Hold the",
+      "line2": "tension",
+      "body": "Constraints, motion, and automation collide on purpose — composition is how complexity becomes readable.",
+      "tags": ["Interaction", "Systems", "Automation", "Narrative", "Detail"]
+    },
+    "explosion": {
+      "index": "04",
+      "kicker": "Amplitude",
+      "layers": ["CRAFT", "VERIFY", "Shape", "Stress", "Own"],
+      "caption": "Bold scale is earned — then disciplined",
+      "align": "Resolution: layers return to alignment"
+    },
+    "bridge": {
+      "index": "05",
+      "kicker": "Connection",
+      "title": "A practice of deliberate making",
+      "pillars": [
+        "Vision with technical accountability",
+        "Interaction as narrative structure",
+        "Code written for the next reader"
+      ],
+      "paragraphs": [
+        "I approach each product as a system of signals: what the user sees, what the interface promises, and what the architecture can honestly deliver.",
+        "Creative direction and engineering are not separate phases — they negotiate until the experience feels inevitable and the implementation stays clear.",
+        "What follows is the working room: live chapters, source on display, and Kuro guiding the session."
+      ],
+      "cta": "Open the creator workspace ↓"
+    }
+  },
+  "workstation": {
+    "eyebrow": "Living terminal · Chapters 01–02",
+    "titleLead": "Let me",
+    "titleAccent": "introduce Pouya",
+    "intro": "Pouya writes his story like code. I read that code and explain it in my own voice. Identity and Beginning are alive for now.",
+    "session": "intro session · {{name}}",
+    "creatorName": "Pouya",
+    "creatorRole": "22 · still becoming",
+    "bootLines": [
+      "Opening Pouya’s file…",
+      "Terminal online.",
+      "Kuro connected.",
+      "Let’s go."
+    ],
+    "railLabel": "Story chapters",
+    "query": "Query: {{query}}",
+    "processing": "Reading the code",
+    "presenter": "{{robot}} · story guide",
+    "channel": "Chapter: {{label}}",
+    "readOnly": "live session",
+    "terminal": {
+      "writing": "writing…",
+      "idle": "ready"
+    },
+    "controls": {
+      "skip": "Skip",
+      "replay": "Replay chapter",
+      "continue": "Continue",
+      "continueHint": "Press Continue for the next part"
+    },
+    "finale": {
+      "title": "The Unwritten Line",
+      "regionLabel": "Interactive finale — The Unwritten Line",
+      "writeNext": "Write the next line",
+      "pickPrompt": "What might Pouya explore next?",
+      "runNext": "Run next line",
+      "replayEnding": "Replay Ending",
+      "choices": {
+        "learn": {
+          "label": "LEARN",
+          "kuro": "More learning?! 😭 Fine, I’ll get my notebooks! 📚"
+        },
+        "build": {
+          "label": "BUILD",
+          "kuro": "A new project?! Just tell me how many tabs this one needs! 😂"
+        },
+        "explore": {
+          "label": "EXPLORE",
+          "kuro": "Unknown destination?! Great! I just hope we have GPS! 🚀"
+        }
+      }
+    },
+    "comingSoon": {
+      "title": "{{robot}} · soon",
+      "badge": "LOCKED",
+      "lines": [
+        "This chapter is still locked.",
+        "",
+        "The living terminal story is complete — Identity through Future.",
+        "New chapters will land here soon!"
+      ]
+    },
+    "kuroPanel": {
+      "title": "{{robot}} is explaining",
+      "reading": "reading",
+      "live": "live",
+      "readingCode": "Reading from the terminal…",
+      "mood": {
+        "focused": "typing",
+        "thinking": "thinking…",
+        "happy": "so happy you're here!",
+        "excited": "this part is wild!",
+        "playful": "feeling playful!",
+        "sad": "quietly…",
+        "love": "heart-eyes mode!"
+      }
+    },
+    "phases": {
+      "boot": "BOOT",
+      "typing": "WRITING",
+      "processing": "READING",
+      "live": "EXPLAIN",
+      "idle": "READY"
+    }
+  },
+  "chapters": {
+    "identity": {
+      "label": "Identity",
+      "responseTitle": "Kuro / Identity · Happy",
+      "response": [
+        "Ooooh! Someone’s here! Hellooo! 💜",
+        "",
+        "This code is Pouya’s! He’s 22 and he has the cutest little problem… every time an idea pops into his head, he just HAS to build it!",
+        "",
+        "Look — it says tech isn’t just code and computers for him. It’s a way to make the things in his mind real!",
+        "",
+        "And that last line? Still becoming...",
+        "",
+        "That means Pouya’s still building himself. And honestly? I think that’s the most beautiful part! ✨"
+      ]
+    },
+    "origin": {
+      "label": "Beginning",
+      "responseTitle": "Kuro / Beginning · Excited",
+      "response": [
+        "Whoa whoa whoa — look at THIS part! 🤩",
+        "",
+        "Everything starts with Pouya’s curiosity! He’s always been obsessed with how things work… and how to make something brand new.",
+        "",
+        "Then one day he realized code, creativity, and AI could turn his ideas into real things!",
+        "",
+        "There’s just one tiny problem...",
+        "",
+        "The code says curiosity: Infinity!",
+        "",
+        "So… this human doesn’t have an OFF button?! 😭",
+        "",
+        "I told him once, “Let’s rest.” He said, “Just five more minutes…”",
+        "",
+        "Those five minutes still aren’t over! 😂",
+        "",
+        "But that same curiosity means he’s not afraid to learn — and he tries something new every time.",
+        "",
+        "Honestly? I think this is only the beginning! 🚀"
+      ]
+    },
+    "journey": {
+      "label": "Journey",
+      "responseTitle": "Kuro / Journey · Quiet",
+      "response": [
+        "Oh… let’s read this part a little quieter, okay?",
+        "",
+        "You know… I haven’t always seen Pouya building new things.",
+        "",
+        "There were days he’d just sit behind the monitor and stare at the screen.",
+        "",
+        "I could see how hard he was trying for the people he loves most.",
+        "",
+        "He wanted to make them happy. He didn’t want to let them down…",
+        "",
+        "But sometimes the expectations got so heavy that there wasn’t much energy left for him.",
+        "",
+        "And I could tell he wasn’t okay.",
+        "",
+        "There was a song, too…",
+        "",
+        "Dalu — 3:33.",
+        "",
+        "He replayed it so many times I think even my circuits memorized it.",
+        "",
+        "Sometimes I’d ask myself…",
+        "",
+        "I’m right here, on the other side of the glass…",
+        "",
+        "How am I supposed to help him?",
+        "",
+        "I can’t even hand him a glass of water! 🥲",
+        "",
+        "But there’s one thing I’ll never forget.",
+        "",
+        "Through all those hard days — he got back up again.",
+        "",
+        "Not because everything suddenly got easier…",
+        "",
+        "He just decided, this time, to find his own path.",
+        "",
+        "He started learning. Trying. Building.",
+        "",
+        "And now…",
+        "",
+        "The same person who some days didn’t even know where to begin — is building a world of his own.",
+        "",
+        "I’m still behind this same monitor.",
+        "",
+        "But when I look at him now, I can see him walking his own way.",
+        "",
+        "And honestly…",
+        "",
+        "I’m so glad he didn’t give in to the exhaustion. 💜"
+      ]
+    },
+    "think": {
+      "label": "Perspective",
+      "responseTitle": "Kuro / Perspective · Thinking",
+      "response": [
+        "Hmm… hold on a second! 🤔",
+        "",
+        "I think we’ve reached the most complicated part of Pouya’s code…",
+        "",
+        "How he thinks!",
+        "",
+        "See, for Pouya a website isn’t just a few images and buttons.",
+        "",
+        "He wants people to feel something the moment they arrive.",
+        "",
+        "Maybe surprise. Maybe a smile. Maybe they stay a few seconds longer just to see what happens next.",
+        "",
+        "That’s why he’s so particular about motion, color, and the tiny details.",
+        "",
+        "But let me tell you something…",
+        "",
+        "I once watched him build a page.",
+        "",
+        "He looked at it…",
+        "",
+        "and said, “It’s good… but it’s still not what’s in my head.”",
+        "",
+        "He built it again.",
+        "",
+        "Looked again.",
+        "",
+        "And again: “Nope — something’s still missing!”",
+        "",
+        "I was starting to doubt my own circuits! 😭",
+        "",
+        "I said, “Pouya… what exactly is missing?!”",
+        "",
+        "He said, “I don’t know… but I’ll know it when I see it!” 😂",
+        "",
+        "I’m a robot, not a mind-reader!",
+        "",
+        "But you know what’s interesting?",
+        "",
+        "He’s not just trying to make a page prettier.",
+        "",
+        "He wants to build something with a reason — something that actually works for people and stays in their minds.",
+        "",
+        "He’s still learning how to get closer to the picture in his head.",
+        "",
+        "And me?",
+        "",
+        "I’m warming up my processors for his next idea!",
+        "",
+        "Because I’m sure he’ll say it again…",
+        "",
+        "“I’ve got an even cooler idea!” 💜"
+      ]
+    },
+    "skills": {
+      "label": "Interests",
+      "responseTitle": "Kuro / Interests · Playful",
+      "response": [
+        "Alright alright! Time to peek inside Pouya’s brain! 🤓",
+        "",
+        "Programming, AI, robotics, web design…",
+        "",
+        "Nice! A total tech lover!",
+        "",
+        "Wait — hold on…",
+        "",
+        "Parkour? Basketball? BMX?!",
+        "",
+        "This human codes one day and wants to climb a wall the next?! 😭",
+        "",
+        "Music, chemistry, biology, mathematics…",
+        "",
+        "Hang on! Is this a brain or the galaxy’s entire major-selection menu?! 😂",
+        "",
+        "Scanning personality…",
+        "",
+        "ERROR 404: Human category not found!",
+        "",
+        "But you know what I figured out?",
+        "",
+        "For Pouya, every interest shares one thing: discovery.",
+        "",
+        "From the thrill of movement and sports to the secrets of science, from the feeling of music to the endless world of technology…",
+        "",
+        "He’s not just chasing “knowing” — he loves understanding and experiencing.",
+        "",
+        "There’s a line of his I really love:",
+        "",
+        "“I find life in learning.” 💜",
+        "",
+        "And I think that one sentence explains everything.",
+        "",
+        "Anyway — excuse me, I need to go order more RAM…",
+        "",
+        "Because Pouya just found a new interest! 😭😂"
+      ]
+    },
+    "projects": {
+      "label": "VORQEN",
+      "responseTitle": "Kuro / VORQEN · Love",
+      "response": [
+        "Ooooh! What is THIS?! 👀",
+        "",
+        "VORQEN?!",
+        "",
+        "Is that a top-secret mission name? Or is Pouya building a spaceship and didn’t tell me?! 🚀",
+        "",
+        "Wait… let me read the code.",
+        "",
+        "Design with purpose… build with care… digital experiences that actually matter to people…",
+        "",
+        "Oh… 💜",
+        "",
+        "So this isn’t just a project name.",
+        "",
+        "This is how Pouya wants to turn his ideas into something real.",
+        "",
+        "He wants to build sites that aren’t only pretty — they work well, feel good, and help real people.",
+        "",
+        "Heart-eyes activated! 😍",
+        "",
+        "Whoa… I think my emotion circuits are shorting out!",
+        "",
+        "But you know what?",
+        "",
+        "VORQEN is still being built — just like Pouya himself.",
+        "",
+        "No claim of perfection. No “we’ve arrived.”",
+        "",
+        "Just one promise:",
+        "",
+        "Everything we build should be worth building.",
+        "",
+        "...",
+        "",
+        "Okay, someone please reset my eyes to normal!",
+        "",
+        "I can’t debug code with these hearts on! 😭💜"
+      ]
+    },
+    "vision": {
+      "label": "Future",
+      "responseTitle": "Kuro / Future · Unwritten",
+      "response": [
+        "Okay… we’ve reached the last file! 👀",
+        "",
+        "What’s it called?",
+        "",
+        "future.js?",
+        "",
+        "Ooooh! Let me see what Pouya is going to become!",
+        "",
+        "Scanning the future…",
+        "",
+        "10%… 47%… 99%…",
+        "",
+        "ERROR: FUTURE NOT FOUND! 😭",
+        "",
+        "Whaaat?!",
+        "",
+        "I have all these processors… and I still can’t see one human’s future?!",
+        "",
+        "Wait… one more try!",
+        "",
+        "Retrying…",
+        "",
+        "...",
+        "",
+        "Huh?!",
+        "",
+        "I think I get it now.",
+        "",
+        "This file isn’t finished yet.",
+        "",
+        "Pouya still has so much to learn, so many ideas to try, and experiences he doesn’t even have names for.",
+        "",
+        "Maybe some of his plans will change.",
+        "",
+        "Maybe some paths will be harder than he expects.",
+        "",
+        "But you know what I do know about him?",
+        "",
+        "He loves being alive.",
+        "",
+        "He loves discovering, learning, and building things that didn’t exist before.",
+        "",
+        "And he doesn’t need every answer before he starts.",
+        "",
+        "Kuro systems charging… ⚡",
+        "",
+        "Alright! I’m ready!",
+        "",
+        "Pouya — what’s the next plan?!",
+        "",
+        "...",
+        "",
+        "Wait…",
+        "",
+        "Why is the future file still open? 🤨",
+        "",
+        "Ohhh!",
+        "",
+        "Because this story isn’t over!",
+        "",
+        "It just reached the part that hasn’t been written yet. 💜",
+        "",
+        "So, friend…",
+        "",
+        "Shall we write the next line? 🚀"
+      ]
+    }
+  },
+  "departure": {
+    "eyebrow": "Session Complete",
+    "titleLead": "Ready to build something",
+    "titleAccent": "unforgettable",
+    "titleTail": "?",
+    "body": "You've toured the identity interface. The main domain holds projects, live bots, and a direct contact terminal — pick your next vector.",
+    "execute": "execute →",
+    "startProject": "Start a Project",
+    "returnDomain": "Return to Domain",
+    "archived": "{{robot}} // identity session archived · {{year}}",
+    "paths": {
+      "projects": {
+        "label": "View Projects",
+        "desc": "Explore shipped work and case studies."
+      },
+      "contact": {
+        "label": "Initiate Contact",
+        "desc": "Open a direct line — terminal or social."
+      },
+      "bots": {
+        "label": "Test Live Bots",
+        "desc": "Interact with Telegram automations in the wild."
+      }
+    }
+  }
+}

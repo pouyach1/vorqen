@@ -1,11 +1,14 @@
 import SmoothScroll from "./SmoothScroll";
 import CustomCursor from "./CustomCursor";
 
-/** Mounts site-wide interaction systems once (home + about). */
-export default function InteractionLayer() {
+/**
+ * Mounts site-wide interaction systems (home + about).
+ * SmoothScroll is disabled on /world so the experience Lenis owns scrolling.
+ */
+export default function InteractionLayer({ enableSmoothScroll = true }) {
   return (
     <>
-      <SmoothScroll />
+      {enableSmoothScroll ? <SmoothScroll /> : null}
       <CustomCursor />
     </>
   );

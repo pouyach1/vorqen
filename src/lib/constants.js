@@ -7,6 +7,7 @@ export const SITE = {
 export const NAV_LINKS = [
   { label: "Home", href: "#home" },
   { label: "About Me", href: "/about" },
+  { label: "World", href: "/world" },
   { label: "Telegram Bots", href: "#bots" },
   { label: "Web Projects", href: "#projects" },
   { label: "Estimator", href: "#estimator" },
@@ -32,5 +33,6 @@ export const SOCIAL_LINKS = [
 export const ROBOT_MESSAGES = [
   `Hi, I'm Kuro! Welcome to ${SITE.name}'s Cyber Domain.`,
   "100% Code Integrity Verified.",
-  "Tap me — I change moods! ✨",
+  "Tap me â€” I change moods! âœ¨",
 ];
+

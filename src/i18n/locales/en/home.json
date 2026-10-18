@@ -1,0 +1,265 @@
+{
+  "hero": {
+    "tag": "Digital Studio",
+    "title": "Creative Developer & Bot Architect",
+    "headline": ["CREATIVE", "DEVELOPER", "& BOT ARCHITECT"],
+    "subtitle": "I design and ship futuristic Telegram bot ecosystems and immersive web experiences — from crypto auto-traders to award-level 3D interfaces.",
+    "ctaShowcase": "Explore Showcase",
+    "ctaBots": "Test Telegram Bots",
+    "scroll": "Scroll",
+    "online": "online",
+    "tapHint": "Tap Kuro — moods shift",
+    "kuroLabel": "Kuro companion",
+    "robotMessages": [
+      "Hi, I'm {{robot}}! Welcome to {{name}}'s Cyber Domain.",
+      "100% Code Integrity Verified.",
+      "Tap me — I change moods! ✨"
+    ]
+  },
+  "stats": {
+    "botsBuilt": "Telegram Bots Built",
+    "uptime": "Uptime",
+    "appsDeployed": "Web Apps Deployed"
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Selected Work",
+    "description": "Interactive interfaces engineered for motion, clarity, and product-grade detail.",
+    "visit": "Visit",
+    "openCase": "Open case study →",
+    "details": "Details",
+    "live": "Live",
+    "caseStudy": "Case Study",
+    "devices": {
+      "desktop": "desktop",
+      "mobile": "mobile"
+    },
+    "challenges": "Challenges Solved",
+    "architecture": "Architecture",
+    "scorecard": "Live Performance Scorecard",
+    "scores": {
+      "performance": "Performance",
+      "accessibility": "Accessibility",
+      "bestPractices": "Best Practices",
+      "seo": "SEO"
+    },
+    "loadTime": "Load time: {{value}}",
+    "visitLive": "Visit Live Site",
+    "inspect": "Inspect Code / Figma",
+    "layers": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "apis": "APIs",
+      "animations": "Animations"
+    },
+    "items": {
+      "cyberverse-landing": {
+        "title": "CyberVerse Landing Page",
+        "category": "Web3 & NFT Marketplace",
+        "description": "Immersive landing page for an NFT marketplace with 3D showcase scenes.",
+        "brief": "A Web3 startup needed a launch page that felt as futuristic as the product itself.",
+        "challenges": [
+          "Rendering NFT 3D previews without hurting first-load performance",
+          "Wallet-connect flow that stays intuitive for non-crypto-native visitors"
+        ],
+        "architecture": {
+          "frontend": "React + Three.js hero scene, Tailwind design system",
+          "backend": "Node.js API for collection metadata",
+          "apis": "Ethers.js wallet connect, IPFS metadata fetch",
+          "animations": "Framer Motion scroll reveals, R3F model rotation"
+        }
+      },
+      "aura-ai-dashboard": {
+        "title": "Aura AI Dashboard",
+        "category": "SaaS Analytics Platform",
+        "description": "Analytics dashboard for an AI SaaS product with live usage charts.",
+        "brief": "Aura needed a dashboard that made complex model usage data easy to scan at a glance.",
+        "challenges": [
+          "Keeping chart re-renders smooth on live-updating datasets",
+          "Type-safe API layer shared between dashboard and admin panel"
+        ],
+        "architecture": {
+          "frontend": "Next.js App Router, TypeScript, Recharts",
+          "backend": "tRPC API over a Postgres analytics store",
+          "apis": "REST ingestion endpoint, WebSocket for live metrics",
+          "animations": "Framer Motion panel transitions"
+        }
+      },
+      "nexus-dex": {
+        "title": "Nexus Decentralized Exchange",
+        "category": "DeFi Terminal",
+        "description": "Trading terminal for a decentralized exchange with live order books.",
+        "brief": "A DeFi protocol needed a trading terminal that felt as fast as a centralized exchange.",
+        "challenges": [
+          "Streaming order-book updates without UI jank",
+          "Gas-efficient transaction batching for swap confirmations"
+        ],
+        "architecture": {
+          "frontend": "React + Tailwind, Framer Motion for order-book animation",
+          "backend": "Indexer service syncing on-chain events",
+          "apis": "Ethers.js contract calls, WebSocket price feed",
+          "animations": "Spring-based order-book row transitions"
+        }
+      }
+    }
+  },
+  "bots": {
+    "eyebrow": "Bot Ecosystem Directory",
+    "title": "Telegram Bots Hub",
+    "description": "Search, filter, and launch an interactive demo of any bot below.",
+    "categories": {
+      "All": "All",
+      "Crypto": "Crypto",
+      "AI": "AI",
+      "Utility": "Utility",
+      "Trading": "Trading"
+    },
+    "searchPlaceholder": "Search bots...",
+    "searchLabel": "Search bots",
+    "statusAttention": "One or more bots need attention",
+    "statusLive": "All Systems Operational — Live",
+    "statusDefault": "All Systems Operational — 99.9% Uptime",
+    "empty": "No bots match your search.",
+    "metrics": {
+      "activeUsers": "active Users",
+      "avgResponse": "avg Response",
+      "uptime": "uptime"
+    },
+    "launch": "Launch",
+    "demo": "Interactive Demo",
+    "hideCode": "Hide Code",
+    "showCode": "View Live Code Snippet",
+    "emptyChat": "Tap a command below to start the conversation",
+    "typing": "typing…",
+    "items": {
+      "dex-trading": {
+        "badge": "AUTOMATED TRADING",
+        "description": "Automated buy-and-sell bot for decentralized exchanges, with wallet connection and smart trading algorithms.",
+        "features": ["Wallet Connect", "Smart Order Routing", "Auto Rebalancing"],
+        "replies": {
+          "start": "Welcome to DEX Trading Bot ⚡ Your wallet is connected. Use /menu to continue.",
+          "menu": "📊 1. Portfolio\n📈 2. Live signals\n💸 3. Auto-trading settings",
+          "analytics": "BTC: +2.4% (24h)\nETH: +1.1% (24h)\nPortfolio value: $12,480",
+          "buy": "Confirm: buy 0.05 BTC at market price? [✅ Confirm] [❌ Cancel]"
+        }
+      },
+      "neural-assistant": {
+        "badge": "AI & GPT-4O",
+        "description": "Smart AI assistant connected to the ChatGPT API, with image generation and voice file processing.",
+        "features": ["AI Chat Integration", "Image Generation", "Voice Processing"],
+        "replies": {
+          "start": "Hi! I'm your smart assistant 🤖 Ask me anything, or use /menu.",
+          "menu": "💬 1. Ask the AI\n🖼️ 2. Generate an image\n🎙️ 3. Voice reply mode",
+          "analytics": "Tickets answered today: 214\nAverage satisfaction: 4.8/5"
+        }
+      },
+      "vip-membership": {
+        "badge": "PAYMENT GATEWAY",
+        "description": "Automated subscription manager for VIP channels, connected to cryptocurrency payment gateways.",
+        "features": ["Crypto Payment Gateway", "Auto Subscription Renewal", "Access Control"],
+        "replies": {
+          "start": "Welcome to VIP Channel Manager 💳 Use /menu to view plans.",
+          "menu": "🛒 1. View plans\n🧾 2. My subscriptions\n🔁 3. Manage auto-renewal",
+          "buy": "Invoice #4821 issued — 29 USDT/month. [💳 Pay]"
+        }
+      }
+    }
+  },
+  "stack": {
+    "eyebrow": "Holographic Matrix",
+    "title": "Interactive Tech Stack",
+    "description": "Hover any node for proficiency and years of experience.",
+    "categories": {
+      "All": "All",
+      "Frontend": "Frontend",
+      "Telegram Bot Stack": "Telegram Bot Stack",
+      "Backend & DB": "Backend & DB"
+    },
+    "levels": {
+      "Expert": "Expert",
+      "Advanced": "Advanced",
+      "Intermediate": "Intermediate"
+    },
+    "years": "{{value}} yrs experience"
+  },
+  "estimator": {
+    "eyebrow": "Configurator",
+    "title": "Project Cost Estimator",
+    "description": "Answer three quick questions for a live price and timeline estimate.",
+    "steps": {
+      "type": "1. Select Project Type",
+      "features": "2. Select Features",
+      "timeline": "3. Select Timeline & Delivery Speed",
+      "estimate": "Live Estimate"
+    },
+    "from": "from ${{price}}",
+    "addPrice": "+${{price}}",
+    "back": "Back",
+    "next": "Next",
+    "range": "${{low}} – ${{high}}",
+    "delivery": "Estimated delivery: ~{{days}} days",
+    "typeLabel": "Type:",
+    "featuresLabel": "Features:",
+    "speedLabel": "Speed:",
+    "listSeparator": ", ",
+    "send": "Generate Proposal & Send to Telegram",
+    "restart": "Start Over",
+    "types": {
+      "telegram-bot": "Telegram Bot",
+      "futuristic-website": "Futuristic Website",
+      "fullstack-app": "Full-Stack Web App",
+      "ai-integration": "AI Integration"
+    },
+    "features": {
+      "payment-gateway": "Payment Gateway",
+      "ai-chatbot": "AI Chatbot",
+      "custom-3d": "Custom 3D Design",
+      "admin-dashboard": "Admin Dashboard",
+      "webhooks": "Webhooks & Automations"
+    },
+    "timelines": {
+      "standard": { "label": "Standard", "note": "Default delivery speed" },
+      "priority": { "label": "Priority (+30%)", "note": "~30% faster delivery" },
+      "rush": { "label": "Rush (+60%)", "note": "Fastest possible turnaround" }
+    },
+    "proposal": {
+      "intro": "Hi! I'd like a proposal for a {{type}}.",
+      "features": "Features: {{features}}.",
+      "timeline": "Timeline: {{timeline}}.",
+      "budget": "Estimated budget: ${{low}}–${{high}}."
+    }
+  },
+  "experience": {
+    "eyebrow": "Career Log",
+    "title": "Experience",
+    "description": "Selected chapters from the build log — not a résumé dump.",
+    "items": {
+      "exp-1": {
+        "role": "Freelance Bot Architect & Frontend Developer",
+        "period": "2023 — Present",
+        "summary": "Designing and shipping Telegram bot ecosystems and cyberpunk-grade web interfaces for clients worldwide."
+      },
+      "exp-2": {
+        "role": "Frontend Developer",
+        "period": "2021 — 2023",
+        "summary": "Built and maintained interactive dashboards and marketing sites with React and Three.js."
+      },
+      "exp-3": {
+        "role": "Junior Web Developer",
+        "period": "2020 — 2021",
+        "summary": "Started out building responsive websites and learning the automation stack."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Say Hello",
+    "title": "Contact & Live Bot Simulator",
+    "description": "Test-drive a Telegram-style conversation right on this page.",
+    "chatTitle": "{{robot}} // live chat",
+    "welcome": "Hey! I'm {{robot}}. Drop a message and I'll relay it straight to my creator.",
+    "reply": "Message received. I'll get back to you within 24 hours ⚡",
+    "placeholder": "Type a message...",
+    "inputLabel": "Message to {{robot}}",
+    "send": "Send"
+  }
+}

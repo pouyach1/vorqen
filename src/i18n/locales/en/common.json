@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "primary": "Primary",
+    "toggleMenu": "Toggle navigation menu",
+    "home": "Home",
+    "about": "About Me",
+    "world": "3D World",
+    "telegramBots": "Telegram Bots",
+    "webProjects": "Web Projects",
+    "estimator": "Estimator",
+    "stack": "Tech Stack",
+    "experience": "Experience",
+    "contact": "Contact",
+    "projects": "Projects",
+    "bots": "Bots",
+    "hire": "Hire Me"
+  },
+  "language": {
+    "switchLabel": "View this page in Persian"
+  },
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "Signal lost",
+    "body": "This route does not exist on the domain.",
+    "cta": "Return Home"
+  },
+  "modal": {
+    "close": "Close dialog"
+  },
+  "loader": {
+    "label": "Loading experience",
+    "words": ["INITIALIZING", "ALIGNING", "CALIBRATING", "READY"]
+  },
+  "status": {
+    "running": "ONLINE 24/7",
+    "paused": "PAUSED",
+    "error": "ISSUE DETECTED"
+  },
+  "footer": {
+    "eyebrow": "// Direct CLI Interface",
+    "title": "CYBER TERMINAL",
+    "try": "try:",
+    "copyright": "{{name}} Â· {{robot}} Cyber Domain Â© {{year}}"
+  },
+  "terminal": {
+    "inputLabel": "Terminal command input",
+    "placeholder": "Type 'help' or 'contact'...",
+    "welcome": "SYSTEM READY. Type \"help\" or \"contact\" for quick commands.",
+    "help": "Available commands: help, contact, skills, status, clear",
+    "contact": "Reach {{name}} directly:",
+    "skills": "Frontend: React, Next.js, Tailwind, Three.js, Framer Motion\nBots: Python (Aiogram), Node.js (Telegraf)\nBackend: Supabase, PostgreSQL, Redis, Docker, FastAPI",
+    "status": "ALL SYSTEMS OPERATIONAL. 99.9% UPTIME.",
+    "unknown": "command not recognized: \"{{command}}\" â€” type \"help\""
+  }
+}

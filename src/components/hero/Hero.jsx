@@ -9,6 +9,7 @@ const headline = ["CREATIVE", "DEVELOPER", "& BOT ARCHITECT"];
 
 /**
  * Hero — calm entrance; Kuro carries brand motion in HeroRobot3D.
+ * CTAs open restored About + unified 3D World (vorqen Stages) in one app.
  */
 export default function Hero() {
   const reduce = useReducedMotion();
@@ -73,11 +74,14 @@ export default function Hero() {
           transition={{ duration: DURATION.base, delay: 0.5, ease: EASE.out }}
           className="mt-9 flex flex-wrap gap-4"
         >
-          <NeonButton as="a" href="#projects" variant="cyan">
-            Explore Showcase
+          <NeonButton as="a" href="/about" variant="cyan">
+            About Me
           </NeonButton>
-          <NeonButton as="a" href="#bots" variant="purple">
-            Test Telegram Bots
+          <NeonButton as="a" href="/world" variant="purple">
+            Enter 3D World
+          </NeonButton>
+          <NeonButton as="a" href="#projects" variant="cyan">
+            Showcase
           </NeonButton>
         </motion.div>
 

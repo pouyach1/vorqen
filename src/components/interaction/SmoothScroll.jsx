@@ -2,12 +2,13 @@ import { useEffect, useRef } from "react";
 import Lenis from "lenis";
 import { useReducedMotion } from "framer-motion";
 import { LENIS } from "../../lib/interaction";
+import { syncScrollTriggerWithLenis } from "../../lib/scrollTriggerLenis";
 
 /**
  * Site-wide Lenis smooth scrolling.
  * - Skips when prefers-reduced-motion is on
  * - Uses a single rAF loop; destroyed on unmount
- * - Leaves Framer Motion scroll hooks on native scroll position (Lenis updates root)
+ * - Syncs GSAP ScrollTrigger for About odyssey / bench scenes
  */
 export default function SmoothScroll() {
   const reduce = useReducedMotion();
@@ -32,6 +33,11 @@ export default function SmoothScroll() {
     });
     lenisRef.current = lenis;
 
+    const onLenisScroll = () => {
+      syncScrollTriggerWithLenis();
+    };
+    const offScroll = lenis.on("scroll", onLenisScroll);
+
     let rafId = 0;
     const raf = (time) => {
       lenis.raf(time);
@@ -54,6 +60,7 @@ export default function SmoothScroll() {
 
     return () => {
       document.removeEventListener("click", onClick);
+      if (typeof offScroll === "function") offScroll();
       cancelAnimationFrame(rafId);
       lenis.destroy();
       lenisRef.current = null;
